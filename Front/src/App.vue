@@ -12,6 +12,7 @@
 </template>
 
 <script setup>
+import {Alias} from "vite";
 import HeaderItem from './components/HeaderItem.vue';
 import { onMounted } from 'vue';
 import Cookies from 'universal-cookie'
